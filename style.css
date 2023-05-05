@@ -124,7 +124,7 @@ header .icons #Menu{
     display: none;
 }
 
-#search-form{
+search-form{
     position: fixed;
     top:-110%; left: 0;
     height: 100%;width: 100%;
@@ -136,11 +136,11 @@ header .icons #Menu{
     padding: 0 1rem;
 }
 
-#search-form.active{
+search-form.active{
     top: 0;
 }
 
-#search-from #search-box{
+search-from #search-box{
     width: 50rem;
     border-bottom: .1rem solid #fff;
     padding: 1rem 0;
@@ -150,7 +150,7 @@ header .icons #Menu{
     background: none;
 }
 
-#search-from #search-box::placeholder{
+search-from #search-box::placeholder{
     color: #eee;
 }
 
@@ -167,11 +167,11 @@ header .icons #Menu{
     font-size: 3rem;
 }
 
-#search-from label:hover{
+search-from label:hover{
     color: var(---green);
 }
 
-#search-from #close{
+search-from #close{
     position: absolute;
     color: #fff;
     cursor: pointer;
@@ -271,9 +271,8 @@ gap: 1.5rem;
 
 
 
-@media(max-width:991px)
-    html{
-        font-size: 55%;
+@media(max-width:991px)html{
+        font-size: 50%;
 }
 header{
     padding: 1rem 2rem;
@@ -313,11 +312,10 @@ header .navbar a{
 
 
 
-@media(max-width:991px)
-    html{
+@media(max-width:991px){
         font-size: 50%;
 }
-*
+
 .review .slide{
     padding: 2rem;
     box-shadow: var(---box-shadow);
